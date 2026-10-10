@@ -11,17 +11,11 @@ main:
   - title: "Projects"
     url: /projects/
 
-  - title: "Research"
-    url: /research/
-
   - title: "Macroeconomic notes"
     url: /macro-notes/
 
-  - title: "Weekly learning"
-    url: /weekly-learning/
-
   - title: "CV"
     url: /cv/
-    
+
   # - title: "CV"
   #   url: /cv-json/
