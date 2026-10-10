@@ -12,29 +12,29 @@ A list of all the posts and pages found on the site. For you robots out there, t
 
 <h2>Pages</h2>
 {% for post in site.pages %}
-  {% if post.title and post.sitemap != false %}
-    {% include archive-single.html %}
-  {% endif %}
+{% if post.title and post.sitemap != false %}
+{% include archive-single.html %}
+{% endif %}
 {% endfor %}
 
 {% if site.posts.size > 0 %}
 <h2>Posts</h2>
 {% for post in site.posts %}
-  {% unless post.sitemap == false %}
-    {% include archive-single.html %}
-  {% endunless %}
+{% unless post.sitemap == false %}
+{% include archive-single.html %}
+{% endunless %}
 {% endfor %}
 {% endif %}
 
 {% for collection in site.collections %}
-  {% unless collection.output == false or collection.label == "posts" %}
-    {% if collection.docs.size > 0 %}
-      <h2>{{ collection.label | capitalize }}</h2>
-      {% for post in collection.docs %}
-        {% unless post.sitemap == false %}
-          {% include archive-single.html %}
-        {% endunless %}
-      {% endfor %}
-    {% endif %}
-  {% endunless %}
+{% unless collection.output == false or collection.label == "posts" %}
+{% if collection.docs.size > 0 %}
+<h2>{{ collection.label | replace: "_", " " | capitalize }}</h2>
+{% for post in collection.docs %}
+{% unless post.sitemap == false %}
+{% include archive-single.html %}
+{% endunless %}
+{% endfor %}
+{% endif %}
+{% endunless %}
 {% endfor %}
