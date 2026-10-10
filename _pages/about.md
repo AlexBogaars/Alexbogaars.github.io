@@ -21,8 +21,7 @@ My work interests lie where rigorous econometrics meets macroeconomics and Finan
 - **Macro and policy analysis:** Macroeconometrics with a focus on Asia-Pacific economies
 - **Time-series and financial econometrics:** volatility modelling (GARCH),
   GMM estimation, forecasting.
-- **Applied data science:** [e.g., building and validating predictive
-  models from messy real-world data]
+- **Applied data science:**
 
 ## Toolkit
 
@@ -31,13 +30,11 @@ Python · R  · Stata · Matlab · Git/Github · Latex · SQL
 
 ## Featured work
 
-- [**Project title**](/portfolio/project-1/): one sentence on the question,
-  the method, and the result.
-- [**Project title**](/portfolio/project-2/): same format.
+- [**Central Banking in ASEAN+3**](/_macro_notes/)
 
 ## Currently
 
 MSc at BSE, working on developing deep Data Science skills and Macroeconomic knowledge. Open to opportunities
-in [Singapore / UK] from [07/2027].
+in Singapore from 07/2027.
 
 [LinkedIn](https://www.linkedin.com/in/alexbogaars) · [GitHub](https://github.com/AlexBogaars)
