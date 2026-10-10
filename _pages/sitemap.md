@@ -26,15 +26,16 @@ A list of all the posts and pages found on the site. For you robots out there, t
 {% endfor %}
 {% endif %}
 
-{% for collection in site.collections %}
-{% unless collection.output == false or collection.label == "posts" %}
-{% if collection.docs.size > 0 %}
-<h2>{{ collection.label | replace: "_", " " | capitalize }}</h2>
-{% for post in collection.docs %}
+<h2><a href="{{ '/projects/' | relative_url }}">Projects</a></h2>
+{% for post in site.projects reversed %}
 {% unless post.sitemap == false %}
 {% include archive-single.html %}
 {% endunless %}
 {% endfor %}
-{% endif %}
+
+<h2><a href="{{ '/macro-notes/' | relative_url }}">Macro notes</a></h2>
+{% for post in site.macro_notes reversed %}
+{% unless post.sitemap == false %}
+{% include archive-single.html %}
 {% endunless %}
 {% endfor %}
