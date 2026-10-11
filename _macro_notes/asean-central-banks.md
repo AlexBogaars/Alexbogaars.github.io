@@ -1,6 +1,8 @@
 ---
 layout: single
 title: "Comparing Central Banks in ASEAN+3"
+date: 2026-10-11
+excerpt: "A comparison of central bank frameworks across ASEAN+3, using the monetary policy trilemma and the fiscal theory of the price level."
 permalink: /asean-central-banks/
 author_profile: true
 ---
