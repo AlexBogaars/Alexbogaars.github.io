@@ -32,5 +32,5 @@ Python · R  · Stata · Matlab · Git/Github · Latex · SQL
 
 - [**Central Banking in ASEAN+3**](/macro-notes/asean-central-banks/)
 
-##Connect with me!
+## Connect with me!
 [LinkedIn](https://www.linkedin.com/in/alexbogaars) · [GitHub](https://github.com/AlexBogaars)
