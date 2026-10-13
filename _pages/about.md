@@ -30,11 +30,7 @@ Python · R  · Stata · Matlab · Git/Github · Latex · SQL
 
 ## Featured work
 
-- [**Central Banking in ASEAN+3**](/macro-notes/central-banking-asean-plus-3/)
+- [**Central Banking in ASEAN+3**](/macro-notes/asean-central-banks/)
 
-## Currently
-
-MSc at BSE, working on developing deep Data Science skills and Macroeconomic knowledge. Open to opportunities
-in Singapore from 07/2027.
-
+##Connect with me!
 [LinkedIn](https://www.linkedin.com/in/alexbogaars) · [GitHub](https://github.com/AlexBogaars)
